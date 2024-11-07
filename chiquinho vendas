@@ -1,0 +1,28 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		//chiquinho vende maças no sinal e ele quer
+		//armazenar 
+		// as suas vendas diárias da semana em uma matriz
+		// faça um algoritmo para ajudá-lo
+
+
+		inteiro vendas[5][2],semana=2,macas
+
+		para(inteiro linha=0;linha<5;linha++)
+		{
+			vendas[linha][0]=semana
+			semana++
+			para(inteiro coluna=0;coluna<1;coluna++)
+			{
+				escreva("Quantas maças  : ")
+				leia(macas)
+				vendas[linha][1]=macas
+			}
+		
+		}
+		
+	}
+}
